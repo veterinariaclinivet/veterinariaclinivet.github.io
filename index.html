@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Veterinaria Clinivet Piedecuesta</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+
+<body>
+
+<!-- Top bar: llamadas / whatsapp / visita -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-left">
+<div class="logo-circle">
+        <img src="images/logo.png" alt="Logo" class="logo-small" />
+</div>
+        <span class="brand">Veterinaria Clinivet</span>
+      
+</div>
+      <div class="top-right">
+        <a href="tel:+573203909390" class="top-link">📞 Llámanos: +57 320 390 9390</a>
+
+<a href="https://wa.me/573203909390" target="_blank" aria-label="WhatsApp" class="top-link" style="display:inline-block;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" fill="#25D366" style="vertical-align:middle; margin-right:6px;">
+    <circle cx="256" cy="256" r="240" fill="#25D366"/>
+    <path fill="#fff" d="M391.6 338.3c-6.2-3.1-36.6-18-42.3-20-5.6-2-9.7-3.1-13.8 3.1-4.1 6.2-16 20-19.6 24.1-3.6 4.1-7.3 4.6-13.5 1.5-36.5-18.3-60.3-32.6-84.5-74.8-6.3-10.8 6.3-10 18.1-32.9 2-4.1 1-7.3-.5-10.4-1.5-3.1-13.8-33.2-19-45.5-5-12.3-10.1-10.6-13.8-10.8-3.6-.2-7.7-.2-11.8-.2s-10.4 1.5-15.8 7.3c-5.3 5.6-20.4 19.9-20.4 48.5 0 28.6 20.9 56.3 23.8 60.1 2.9 3.6 41.2 63 99.9 88.4 39.9 17.3 56.4 18.7 76.8 15.7 11.8-1.8 36.6-15 41.7-29.5 5-14.5 5-27 3.5-29.5-1.5-2.5-5.6-3.9-11.8-6.9z"/>
+  </svg>
+Escríbenos (WhatsApp)
+</a>
+        <span class="top-link">📍 Visítanos hoy mismo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <header class="nav-bar">
+    <div class="container nav-inner">
+      <a class="brand-link" href="#inicio">Veterinaria Clinivet</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#consentidos">Nuestros consentidos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#como-llegar">Cómo llegar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Slider -->
+  <main>
+    <section id="inicio" class="hero">
+      <div class="slides">
+        <div class="slide active" style="background-image:url('images/slide1.png')">
+          <div class="hero-content container">
+            <h1>Veterinaria 24 horas en Piedecuesta</h1>
+            <p>Atención de urgencias y servicios integrales para tu mascota.</p>
+            <div class="hero-ctas">
+              <a href="tel:+573203909390" class="btn btn-primary">Llámanos</a>
+              <a href="https://wa.me/573203909390" target="_blank" class="btn btn-secondary">Escríbenos</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/slide2.png')">
+          <div class="hero-content container">
+            <h1>Ayudas diagnósticas y laboratorio</h1>
+            <p>Ecografía, rayos X y análisis clínicos con resultados confiables.</p>
+            <div class="hero-ctas">
+              <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/slide3.png')">
+          <div class="hero-content container">
+            <h1>Peluquería y Petshop</h1>
+            <p>Estética profesional y productos seleccionados para tu mascota.</p>
+            <div class="hero-ctas">
+              <a href="#contacto" class="btn btn-primary">Agenda tu cita</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Veterinaria 24 + lista -->
+    <section class="veterinaria-24">
+      <div class="container">
+        <h2>Veterinaria 24 Horas</h2>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section servicios">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-grid">
+          <article class="servicio-card">
+            <img src="images/consulta-medica.png" alt="Consulta Médica" />
+            <h3>Consulta Médica</h3>
+            <p>Diagnóstico y tratamiento para perros y gatos.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/hospitalizacion.png" alt="Hospitalización" />
+            <h3>Hospitalización</h3>
+            <p>Cuidado profesional durante recuperaciones.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/cirugias.png" alt="Cirugías" />
+            <h3>Cirugías</h3>
+            <p>Procedimientos seguros con anestesia controlada.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/laboratorio.png" alt="Laboratorio Clinico" />
+            <h3>Laboratorio Clinico</h3>
+            <p>Análisis clínicos rápidos y confiables.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/domicilios.png" alt="Servicio a Domicilio" />
+            <h3>Domicilios</h3>
+            <p>Atención y estética en la comodidad de tu casa.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/petshop.png" alt="Petshop" />
+            <h3>Petshop</h3>
+            <p>Alimentos y accesorios de calidad.</p>
+          </article>
+
+          <article class="servicio-card">
+            <img src="images/peluqueria.png" alt="Peluqueria" />
+            <h3>Belleza y Estetica</h3>
+            <p>Baños, cortes y mantenimiento estético.</p>
+          </article>	
+
+      <article class="servicio-card">
+        <img src="images/profilaxis-dental.png" alt="Profilaxis Dental" />
+        <h3>Profilaxis Dental</h3>
+        <p>Cuidado y limpieza profesional de dientes.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/farmacia-veterinaria.png" alt="Farmacia Veterinaria" />
+        <h3>Farmacia Veterinaria</h3>
+        <p>Medicamentos y productos para tu mascota.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/vacunacion.png" alt="Vacunación" />
+        <h3>Vacunación</h3>
+        <p>Protección contra enfermedades comunes.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/desparasitacion.png" alt="Desparasitacion" />
+        <h3>Desparasitacion</h3>
+        <p>Control y prevención de parásitos internos y externos.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/microchip.png" alt="Microchip" />
+        <h3>Microchip</h3>
+        <p>Identificación segura para tu mascota.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/certificados.png" alt="Certificados" />
+        <h3>Certificados Nacionales e Internacionales</h3>
+        <p>Documentos oficiales para viajes y más.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/telemedicina.png" alt="Telemedicina" />
+        <h3>Telemedicina</h3>
+        <p>Consultas y seguimiento a distancia.</p>
+      </article>
+
+      <article class="servicio-card">
+        <img src="images/imagenesdiagnosticas.png" alt="Imagenes Diagnosticas" />
+        <h3>Imagenes Diagnosticas</h3>
+        <p>Consultas y seguimiento a distancia.</p>
+      </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Nuestros consentidos (galería) -->
+    <section id="consentidos" class="consentidos section">
+      <div class="container">
+        <h2>Nuestros Consentidos</h2>
+        <div class="consentidos-grid">
+          <img src="images/pet1.jpg" alt="Pet 1" />
+          <img src="images/pet2.jpg" alt="Pet 2" />
+          <img src="images/pet3.jpg" alt="Pet 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA con carro en movimiento -->
+    <section class="cta section">
+      <div class="container">
+        <div class="cta-inner">
+          <div>
+            <h3>Agenda tu cita</h3>
+            <p>Reservas rápidas y atención prioritaria en urgencias.</p>
+            <a class="btn btn-primary" href="https://wa.me/573203909390" target="_blank">
+             📲 <span class="highlight-text">Agenda por WhatsApp</span> </a>
+
+
+          </div>
+          <div class="car-wrap">
+            <img src="images/car.gif" alt="Carro en movimiento" class="car-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+	
+
+    <!-- Contacto / Footer -->
+    <footer id="contacto" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>Veterinaria Clinivet Piedecuesta</h4>
+          <p>Cr 5B #22-20, Paseo del Puente 2, Piedecuesta</p>
+          <p>Tel: <a href="tel:+573203909390">+57 320 390 9390</a></p>
+        </div>
+        <div class="socials">
+
+<a href="https://wa.me/573203909390" target="_blank" aria-label="WhatsApp" class="top-link" style="display:inline-block;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 512 512" fill="#25D366" style="vertical-align:middle; margin-right:6px;">
+    <circle cx="256" cy="256" r="240" fill="#25D366"/>
+    <path fill="#fff" d="M391.6 338.3c-6.2-3.1-36.6-18-42.3-20-5.6-2-9.7-3.1-13.8 3.1-4.1 6.2-16 20-19.6 24.1-3.6 4.1-7.3 4.6-13.5 1.5-36.5-18.3-60.3-32.6-84.5-74.8-6.3-10.8 6.3-10 18.1-32.9 2-4.1 1-7.3-.5-10.4-1.5-3.1-13.8-33.2-19-45.5-5-12.3-10.1-10.6-13.8-10.8-3.6-.2-7.7-.2-11.8-.2s-10.4 1.5-15.8 7.3c-5.3 5.6-20.4 19.9-20.4 48.5 0 28.6 20.9 56.3 23.8 60.1 2.9 3.6 41.2 63 99.9 88.4 39.9 17.3 56.4 18.7 76.8 15.7 11.8-1.8 36.6-15 41.7-29.5 5-14.5 5-27 3.5-29.5-1.5-2.5-5.6-3.9-11.8-6.9z"/>
+  </svg>
+</a>
+
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 320 512" fill="#1877F2">
+              <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06H293V6.26S259.74 0 225.36 0c-73.61 0-121.36 44.38-121.36 124.72v70.62H22.89V288h81.11v224h100.17V288z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 448 512" fill="#E1306C">
+              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9 0 63.6 51.3 114.9 114.9 114.9 63.6 0 114.9-51.3 114.9-114.9 0-63.6-51.3-114.9-114.9-114.9zm0 186.6c-39.6 0-71.7-32.1-71.7-71.7 0-39.6 32.1-71.7 71.7-71.7 39.6 0 71.7 32.1 71.7 71.7 0 39.6-32.1 71.7-71.7 71.7zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.3-36.2-93.6s-57.9-34.5-93.6-36.2c-36.9-2.1-147.7-2.1-184.6 0-35.7 1.7-67.3 9.9-93.6 36.2S3.3 107.6 1.6 143.3c-2.1 36.9-2.1 147.7 0 184.6 1.7 35.7 9.9 67.3 36.2 93.6s57.9 34.5 93.6 36.2c36.9 2.1 147.7 2.1 184.6 0 35.7-1.7 67.3-9.9 93.6-36.2s34.5-57.9 36.2-93.6c2.1-36.9 2.1-147.7 0-184.6zM398.8 388c-7.8 19.5-23 34.7-42.5 42.5-29.5 11.7-99.5 9-132.3 9s-102.7 2.6-132.3-9c-19.5-7.8-34.7-23-42.5-42.5-11.7-29.5-9-99.5-9-132.3s-2.6-102.7 9-132.3c7.8-19.5 23-34.7 42.5-42.5 29.5-11.7 99.5-9 132.3-9s102.7-2.6 132.3 9c19.5 7.8 34.7 23 42.5 42.5 11.7 29.5 9 99.5 9 132.3s2.7 102.7-9 132.3z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="copyright">© 2025 Veterinaria Clinivet Piedecuesta - Todos los derechos reservados</div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+
+<!-- Sección "Cómo llegar" -->
+<section id="como-llegar" style="text-align:center; margin: 20px 0;">
+    <h2>📍 Cómo llegar</h2>
+    <p>Visítanos en: <strong>Cra. 5B #22-20, Paseo del Puente 2, Piedecuesta, Santander</strong></p>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=Cra.+5B+%23+22-20,+Piedecuesta,+Santander,+Colombia" 
+       target="_blank" 
+       style="display:inline-block; text-decoration:none; color:black;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0338023936295!2d-73.05064532505524!3d7.005935392997748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683f3d3c53b7f5%3A0x123456789abcdef!2sCra.%205B%20%2322-20%2C%20Piedecuesta%2C%20Santander%2C%20Colombia!5e0!3m2!1ses!2sco!4v1690999999999!5m2!1ses!2sco" 
+            width="300" 
+            height="200" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p style="margin-top:10px; font-weight:bold;">🗺️ Ver en Google Maps</p>
+    </a>
+</section>
+
+</html>
+
